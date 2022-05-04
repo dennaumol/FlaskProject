@@ -49,7 +49,7 @@ def add_ad():
         return redirect('/')
     return render_template('ad.html', title='Добавление объявления по работе', form=form)
 
-
+# dadad
 @app.route('/ad_delete/<int:id>', methods=['GET', 'POST'])
 @login_required
 def ad_delete(id):
